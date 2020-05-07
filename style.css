@@ -1,0 +1,53 @@
+body{
+background: linear-gradient(rgba(198,0,150,1) 0%, rgba(48,106,181,1) 100%);
+/* background-image: url(https://lh3.googleusercontent.com/proxy/Yx2xlLsZEJLMlmMG68vmyFTdSfEv-8UMOe798BeerC9MctIGpQM7ejvrl14CUdeobd8eTwVlYqrhLSmHDL0raQerGE3N3fgaN7fbYkIxr5bC7unc0iwc3hd1M4MEMPOR8OrlTVZP); */
+}
+*{
+  font-family: Times;
+  color: white;
+}
+.mainContainer{
+  /* background-image: url(https://lh3.googleusercontent.com/proxy/Yx2xlLsZEJLMlmMG68vmyFTdSfEv-8UMOe798BeerC9MctIGpQM7ejvrl14CUdeobd8eTwVlYqrhLSmHDL0raQerGE3N3fgaN7fbYkIxr5bC7unc0iwc3hd1M4MEMPOR8OrlTVZP); */
+
+display: grid;
+grid-template-columns: repeat(5,1fr);
+column-gap: 5vmin;
+grid-template-rows: repeat(3,1fr);
+/* row-gap: 1vmin; */
+}
+.tv{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 100%;
+  margin-left: 2.5vmin;
+}
+.stand{
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 80%;
+}
+.remote{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  width: 15%;
+  margin-left: 5vmin;
+}
+.control{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-top: 50vmin;
+  margin-left: 2.5vmin;
+
+}
+
+.howidea{
+  font-size: 1.15em;
+}
